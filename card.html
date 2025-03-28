@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Boxes</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3 onclick="toggleBox(0)">Box 1</h3>
+            <div class="content">
+                <label>Color: 
+                    <select onchange="changeColor(event)">
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                </label>
+                <label>Size: 
+                    <select onchange="changeColor(event)">
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 onclick="toggleBox(1)">Box 2</h3>
+            <div class="content">
+                <label>Color: 
+                    <select onchange="changeColor(event)">
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                </label>
+                <label>Size: 
+                    <select onchange="changeColor(event)">
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 onclick="toggleBox(2)">Box 3</h3>
+            <div class="content">
+                <label>Color: 
+                    <select onchange="changeColor(event)">
+                        <option>Red</option>
+                        <option>Blue</option>
+                        <option>Green</option>
+                    </select>
+                </label>
+                <label>Size: 
+                    <select onchange="changeColor(event)">
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+    </div>
+    <script src="card.js"></script>
+</body>
+</html>
